@@ -102,7 +102,7 @@ function getCurrentDate() {
 
 // Function to check if the page is still valid
 async function checkPageValidity() {
-  const expiryDate = new Date('2025-07-12T12:40:00'); // yyyy-mm-ddThh:mm:ss Format
+  const expiryDate = new Date('2025-08-11T14:57:00'); // yyyy-mm-ddThh:mm:ss Format
   const currentDate = await getCurrentDate();
 
   if (currentDate > expiryDate) {
